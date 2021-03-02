@@ -14,7 +14,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var imageView: UIImageView!
     
     let imagePicker = UIImagePickerController()
-    let hotdogIdentefier = HotdogIdentefier()
+    let hotdogIdentifier = HotdogIdentifier()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 fatalError("Could not convert to CIImage")
             }
             
-            if hotdogIdentefier.isHotdog(image: ciImage) {
+            if hotdogIdentifier.isHotdog(image: ciImage) {
                 self.navigationItem.title = "Hotdog!"
             } else {
                 self.navigationItem.title = "Not Hotdog!"
