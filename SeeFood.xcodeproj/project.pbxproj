@@ -16,7 +16,7 @@
 		8F41EF9725EE41EC00C91CF6 /* SeeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41EF9625EE41EC00C91CF6 /* SeeFoodTests.swift */; };
 		8F41EFA225EE41EC00C91CF6 /* SeeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41EFA125EE41EC00C91CF6 /* SeeFoodUITests.swift */; };
 		8F41EFB325EE431100C91CF6 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8F41EFB225EE431100C91CF6 /* Inceptionv3.mlmodel */; };
-		8F41EFD125EE9B8800C91CF6 /* HotdogIdentefier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41EFD025EE9B8800C91CF6 /* HotdogIdentefier.swift */; };
+		8F41EFD125EE9B8800C91CF6 /* HotdogIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41EFD025EE9B8800C91CF6 /* HotdogIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		8F41EFA125EE41EC00C91CF6 /* SeeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodUITests.swift; sourceTree = "<group>"; };
 		8F41EFA325EE41EC00C91CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F41EFB225EE431100C91CF6 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
-		8F41EFD025EE9B8800C91CF6 /* HotdogIdentefier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotdogIdentefier.swift; sourceTree = "<group>"; };
+		8F41EFD025EE9B8800C91CF6 /* HotdogIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotdogIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				8F41EF8125EE41EB00C91CF6 /* SceneDelegate.swift */,
 				8F41EF8325EE41EB00C91CF6 /* ViewController.swift */,
 				8F41EF8525EE41EB00C91CF6 /* Main.storyboard */,
-				8F41EFD025EE9B8800C91CF6 /* HotdogIdentefier.swift */,
+				8F41EFD025EE9B8800C91CF6 /* HotdogIdentifier.swift */,
 				8F41EF8825EE41EC00C91CF6 /* Assets.xcassets */,
 				8F41EF8A25EE41EC00C91CF6 /* LaunchScreen.storyboard */,
 				8F41EF8D25EE41EC00C91CF6 /* Info.plist */,
@@ -268,7 +268,7 @@
 				8F41EFB325EE431100C91CF6 /* Inceptionv3.mlmodel in Sources */,
 				8F41EF8025EE41EB00C91CF6 /* AppDelegate.swift in Sources */,
 				8F41EF8225EE41EB00C91CF6 /* SceneDelegate.swift in Sources */,
-				8F41EFD125EE9B8800C91CF6 /* HotdogIdentefier.swift in Sources */,
+				8F41EFD125EE9B8800C91CF6 /* HotdogIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
