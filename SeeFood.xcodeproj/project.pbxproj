@@ -15,6 +15,7 @@
 		8F41EF8C25EE41EC00C91CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F41EF8A25EE41EC00C91CF6 /* LaunchScreen.storyboard */; };
 		8F41EF9725EE41EC00C91CF6 /* SeeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41EF9625EE41EC00C91CF6 /* SeeFoodTests.swift */; };
 		8F41EFA225EE41EC00C91CF6 /* SeeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41EFA125EE41EC00C91CF6 /* SeeFoodUITests.swift */; };
+		8F41EFB325EE431100C91CF6 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8F41EFB225EE431100C91CF6 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8F41EF9D25EE41EC00C91CF6 /* SeeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F41EFA125EE41EC00C91CF6 /* SeeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodUITests.swift; sourceTree = "<group>"; };
 		8F41EFA325EE41EC00C91CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F41EFB225EE431100C91CF6 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8F41EF8825EE41EC00C91CF6 /* Assets.xcassets */,
 				8F41EF8A25EE41EC00C91CF6 /* LaunchScreen.storyboard */,
 				8F41EF8D25EE41EC00C91CF6 /* Info.plist */,
+				8F41EFB225EE431100C91CF6 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F41EF8425EE41EB00C91CF6 /* ViewController.swift in Sources */,
+				8F41EFB325EE431100C91CF6 /* Inceptionv3.mlmodel in Sources */,
 				8F41EF8025EE41EB00C91CF6 /* AppDelegate.swift in Sources */,
 				8F41EF8225EE41EB00C91CF6 /* SceneDelegate.swift in Sources */,
 			);
