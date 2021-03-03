@@ -9,7 +9,7 @@ import UIKit
 import CoreML
 import Vision
 
-struct HotdogIdentefier {
+struct HotdogIdentifier {
     
     func isHotdog(image: CIImage) -> Bool {
         
